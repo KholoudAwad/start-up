@@ -1,0 +1,44 @@
+html ,
+body{
+	height:100%;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+	background: url(bg-img.JFIF) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+hr{
+	border-color:#224572;
+	border-width:3px;
+	max-width:65px;
+}
+
+h1{
+	font-size: 3rem;
+	color: rgb(135, 88, 12);
+}
+
+.buffer{
+
+	height:25px;
+}
+.btn{
+
+	background-color: #224572;
+	border-color: #224572;
+}
+
+.btn:hover{
+	background-color: #0F2F59;
+	border-color: #0F2F59;
+	border-width:3px;
+}
+
+.btn-xl{
+	font-size: 2rem;
+	padding:8px 10px;
+/*	text-transform: uppercase;
+*/}
