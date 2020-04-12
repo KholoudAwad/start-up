@@ -1,0 +1,28 @@
+/* Selector {
+	property:value; -- it is called cascading because it takes the last value for the property like if you have 10 values for p it will take the last one
+}*/
+
+.container{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1{
+	font-family: fantasy;
+	width:400px;
+	border-bottom: 1px solid pink;
+	border-right: 1px solid pink;
+	text-align: center;
+
+}
+img{
+	width:450px;
+	height:400px;
+	margin: 10px;
+	transition: all 1s; /* it means all attributes will change over 1 second*/
+}
+
+img:hover{
+	transform: scale(1.1); /* the scale will change to 1.1 when I hover*/
+}
